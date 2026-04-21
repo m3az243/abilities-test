@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "question": "What comes next in the series: 2, 4, 8, 16, ?",
+    "options": ["20", "24", "32", "64"],
+    "correctAnswer": 2,
+    "category": "quantitative",
+    "subType": "pattern",
+    "difficulty": "easy",
+    "explanation": "Each number is doubled: 2×2=4, 4×2=8, 8×2=16, 16×2=32",
+    "tags": ["sequence", "multiplication"]
+  },
+  {
+    "id": 2,
+    "question": "Which word is the odd one out?",
+    "options": ["Apple", "Banana", "Carrot", "Orange"],
+    "correctAnswer": 2,
+    "category": "verbal",
+    "subType": "logical",
+    "difficulty": "easy",
+    "explanation": "Carrot is a vegetable, while the others are fruits",
+    "tags": ["classification", "food"]
+  },
+  {
+    "id": 3,
+    "question": "If 3x + 7 = 16, what is x?",
+    "options": ["3", "7", "9", "13"],
+    "correctAnswer": 0,
+    "category": "quantitative",
+    "subType": "numerical",
+    "difficulty": "easy",
+    "explanation": "3x + 7 = 16, so 3x = 9, therefore x = 3",
+    "tags": ["algebra", "equations"]
+  },
+  {
+    "id": 4,
+    "question": "Complete the analogy: Doctor is to Hospital as Teacher is to ?",
+    "options": ["Library", "School", "Office", "Store"],
+    "correctAnswer": 1,
+    "category": "verbal",
+    "subType": "analogy",
+    "difficulty": "easy",
+    "explanation": "A doctor works in a hospital, just as a teacher works in a school",
+    "tags": ["analogy", "professions"]
+  },
+  {
+    "id": 5,
+    "question": "What is 25% of 80?",
+    "options": ["15", "20", "25", "30"],
+    "correctAnswer": 1,
+    "category": "quantitative",
+    "subType": "numerical",
+    "difficulty": "easy",
+    "explanation": "25% of 80 = 0.25 × 80 = 20",
+    "tags": ["percentage", "calculation"]
+  },
+  {
+    "id": 6,
+    "question": "Which word means 'the same as' 'happy'?",
+    "options": ["Sad", "Angry", "Joyful", "Tired"],
+    "correctAnswer": 2,
+    "category": "verbal",
+    "subType": "vocabulary",
+    "difficulty": "easy",
+    "explanation": "Joyful means the same as happy",
+    "tags": ["synonyms", "emotions"]
+  },
+  {
+    "id": 7,
+    "question": "Find the missing number: 5, 10, 15, ?, 25",
+    "options": ["18", "20", "22", "23"],
+    "correctAnswer": 1,
+    "category": "quantitative",
+    "subType": "pattern",
+    "difficulty": "easy",
+    "explanation": "The pattern increases by 5 each time: 5, 10, 15, 20, 25",
+    "tags": ["sequence", "addition"]
+  },
+  {
+    "id": 8,
+    "question": "Which is the largest planet in our solar system?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "correctAnswer": 2,
+    "category": "verbal",
+    "subType": "general",
+    "difficulty": "easy",
+    "explanation": "Jupiter is the largest planet in our solar system",
+    "tags": ["science", "astronomy"]
+  },
+  {
+    "id": 9,
+    "question": "If a rectangle has length 8 and width 4, what is its area?",
+    "options": ["12", "16", "24", "32"],
+    "correctAnswer": 3,
+    "category": "quantitative",
+    "subType": "numerical",
+    "difficulty": "easy",
+    "explanation": "Area = length × width = 8 × 4 = 32",
+    "tags": ["geometry", "area"]
+  },
+  {
+    "id": 10,
+    "question": "Complete the series: A, C, E, G, ?",
+    "options": ["H", "I", "J", "K"],
+    "correctAnswer": 1,
+    "category": "verbal",
+    "subType": "pattern",
+    "difficulty": "easy",
+    "explanation": "The pattern skips one letter each time: A, B, C, D, E, F, G, H, I",
+    "tags": ["alphabet", "pattern"]
+  },
+  {
+    "id": 11,
+    "question": "What is 15 × 12?",
+    "options": ["150", "165", "180", "195"],
+    "correctAnswer": 2,
+    "category": "quantitative",
+    "subType": "numerical",
+    "difficulty": "medium",
+    "explanation": "15 × 12 = 180",
+    "tags": ["multiplication", "calculation"]
+  },
+  {
+    "id": 12,
+    "question": "Which word is the antonym of 'ancient'?",
+    "options": ["Old", "Modern", "Historic", "Traditional"],
+    "correctAnswer": 1,
+    "category": "verbal",
+    "subType": "vocabulary",
+    "difficulty": "medium",
+    "explanation": "Modern is the opposite of ancient",
+    "tags": ["antonyms", "time"]
+  },
+  {
+    "id": 13,
+    "question": "If the ratio of boys to girls is 3:2 and there are 15 boys, how many girls are there?",
+    "options": ["8", "10", "12", "15"],
+    "correctAnswer": 1,
+    "category": "quantitative",
+    "subType": "numerical",
+    "difficulty": "medium",
+    "explanation": "3:2 ratio means for every 3 boys there are 2 girls. If there are 15 boys (5 × 3), then there are 5 × 2 = 10 girls",
+    "tags": ["ratios", "proportions"]
+  },
+  {
+    "id": 14,
+    "question": "Complete the analogy: Book is to Reading as Fork is to ?",
+    "options": ["Writing", "Eating", "Cooking", "Cleaning"],
+    "correctAnswer": 1,
+    "category": "verbal",
+    "subType": "analogy",
+    "difficulty": "medium",
+    "explanation": "A book is used for reading, just as a fork is used for eating",
+    "tags": ["analogy", "tools"]
+  },
+  {
+    "id": 15,
+    "question": "What is the next number in the series: 1, 4, 9, 16, 25, ?",
+    "options": ["30", "32", "36", "49"],
+    "correctAnswer": 2,
+    "category": "quantitative",
+    "subType": "pattern",
+    "difficulty": "medium",
+    "explanation": "These are perfect squares: 1², 2², 3², 4², 5², 6² = 36",
+    "tags": ["squares", "pattern"]
+  },
+  {
+    "id": 16,
+    "question": "Which sentence is grammatically correct?",
+    "options": [
+      "Me and him went to the store",
+      "Him and me went to the store", 
+      "He and I went to the store",
+      "I and him went to the store"
+    ],
+    "correctAnswer": 2,
+    "category": "verbal",
+    "subType": "grammar",
+    "difficulty": "medium",
+    "explanation": "The correct grammatical order is 'He and I' when referring to yourself and others in the subject position",
+    "tags": ["grammar", "pronouns"]
+  },
+  {
+    "id": 17,
+    "question": "If a car travels 60 miles in 1.5 hours, what is its average speed?",
+    "options": ["30 mph", "40 mph", "45 mph", "50 mph"],
+    "correctAnswer": 1,
+    "category": "quantitative",
+    "subType": "numerical",
+    "difficulty": "medium",
+    "explanation": "Speed = Distance ÷ Time = 60 ÷ 1.5 = 40 mph",
+    "tags": ["speed", "distance", "time"]
+  },
+  {
+    "id": 18,
+    "question": "Which word does not belong with the others?",
+    "options": ["Circle", "Square", "Triangle", "Sphere"],
+    "correctAnswer": 3,
+    "category": "verbal",
+    "subType": "logical",
+    "difficulty": "medium",
+    "explanation": "Sphere is a 3D shape, while the others are 2D shapes",
+    "tags": ["classification", "geometry"]
+  },
+  {
+    "id": 19,
+    "question": "What is the value of x in the equation: 2x + 5 = 3x - 7?",
+    "options": ["10", "12", "14", "16"],
+    "correctAnswer": 1,
+    "category": "quantitative",
+    "subType": "numerical",
+    "difficulty": "hard",
+    "explanation": "2x + 5 = 3x - 7. Subtract 2x from both sides: 5 = x - 7. Add 7 to both sides: x = 12",
+    "tags": ["algebra", "equations"]
+  },
+  {
+    "id": 20,
+    "question": "Complete the series: 2, 6, 12, 20, 30, ?",
+    "options": ["36", "40", "42", "45"],
+    "correctAnswer": 2,
+    "category": "quantitative",
+    "subType": "pattern",
+    "difficulty": "hard",
+    "explanation": "The pattern adds consecutive even numbers: +4, +6, +8, +10, +12. So 30 + 12 = 42",
+    "tags": ["sequence", "pattern"]
+  }
+]

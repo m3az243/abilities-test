@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View your test results with detailed analysis and question review.">
+  <title>Results | Test capabilities trial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="results">
+  <div class="page-shell results-shell">
+    <header class="site-header">
+      <a class="brand brand-title" href="index.html" aria-label="Return to home page">Test capabilities trial</a>
+      <div class="inline-actions">
+        <a class="button button-ghost button-sm" href="about.html">Who are we</a>
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch theme">?</button>
+      </div>
+    </header>
+
+    <main class="results-main">
+      <section class="results-hero glass-card">
+        <div class="results-score">
+          <span class="eyebrow">Final Score</span>
+          <h1 id="scoreValue">0 / 20</h1>
+          <p id="scoreMeta">0%</p>
+          <strong id="scoreRating" class="rating-pill">Needs Improvement</strong>
+        </div>
+
+        <div class="results-actions">
+          <button class="button button-primary" type="button" id="retryButton">Retake Test</button>
+          <button class="button button-secondary" type="button" id="printButton">Print Results</button>
+          <a class="button button-ghost" href="index.html">Return to Home</a>
+        </div>
+      </section>
+
+      <section class="summary-grid" id="summaryCards" aria-label="Summary indicators"></section>
+
+      <section class="analysis-layout">
+        <article class="glass-card">
+          <div class="panel-heading">
+            <h2>By Category</h2>
+            <span class="muted">Verbal and Quantitative</span>
+          </div>
+          <div class="analysis-list" id="categoryAnalysis"></div>
+        </article>
+
+        <article class="glass-card">
+          <div class="panel-heading">
+            <h2>By Difficulty</h2>
+            <span class="muted">Easy, Medium, Hard</span>
+          </div>
+          <div class="analysis-list" id="difficultyAnalysis"></div>
+        </article>
+      </section>
+
+      <section class="glass-card">
+        <div class="panel-heading">
+          <h2>Question Review</h2>
+          <span class="muted">Review all questions and answers</span>
+        </div>
+        <div class="question-review" id="questionReview"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

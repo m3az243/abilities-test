@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Take the abilities test with 20 questions in 25 minutes.">
+  <title>Test | Test capabilities trial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="exam">
+  <div class="page-shell exam-shell">
+    <header class="exam-header">
+      <div class="header-cluster">
+        <div class="question-info">
+          <span id="questionCounter">1 / 20</span>
+          <span class="progress-text" id="progressText">5%</span>
+        </div>
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+      </div>
+      
+      <div class="header-cluster timer-cluster" id="timerCluster">
+        <span class="timer-display" id="timerDisplay">25:00</span>
+      </div>
+      
+      <div class="header-cluster">
+        <span class="flagged-count" id="flaggedCount">Flagged: 0</span>
+        <span class="answered-count" id="answeredCount">0 answered</span>
+      </div>
+      
+      <div class="header-cluster">
+        <button class="icon-button" type="button" id="fullscreenButton" aria-label="Toggle fullscreen">?</button>
+        <button class="icon-button theme-toggle" type="button" aria-label="Switch theme">?</button>
+      </div>
+    </header>
+
+    <main class="exam-main">
+      <aside class="exam-sidebar">
+        <div class="question-nav-container">
+          <h3>Question Navigation</h3>
+          <div class="nav-grid" id="questionNav"></div>
+        </div>
+        
+        <div class="session-controls">
+          <button class="button button-secondary" type="button" id="flagButton">Flag for Review</button>
+          <button class="button button-primary" type="button" id="finishButton">Finish Test</button>
+        </div>
+        
+        <div class="session-notice hidden" id="sessionNotice"></div>
+      </aside>
+
+      <section class="exam-content">
+        <article class="question-card">
+          <div class="question-header">
+            <div class="question-badges">
+              <span class="badge" id="categoryBadge">Verbal</span>
+              <span class="badge" id="subTypeBadge">Analogy</span>
+              <span class="badge" id="difficultyBadge">Easy</span>
+            </div>
+          </div>
+          
+          <div class="question-body">
+            <h2 class="question-text" id="questionText">Loading question...</h2>
+          </div>
+          
+          <div class="question-options">
+            <div class="options-list" id="optionsList"></div>
+          </div>
+        </article>
+
+        <div class="exam-navigation">
+          <button class="button button-secondary" type="button" id="prevButton">Previous</button>
+          <button class="button button-primary" type="button" id="nextButton">Next</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
